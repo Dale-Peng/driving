@@ -6,8 +6,8 @@ if country == '台灣':
 		print('可以考照')
 	else:
 		print('不能考照')
-if country == '美國':
-	if age >=21:
+elif country == '美國':
+	if age >=16:
 		print('可以考照')
 	else:
 		print('不能考照')
